@@ -1,0 +1,38 @@
+/* searchbar.css */
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-right: 100px;
+   
+   
+  }
+  
+  input[type="text"] {
+    width: 600px;
+    height: 35px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    background-color: #1e1e1e;
+    color: #fff;
+  }
+  
+  input[type="text"]::placeholder {
+    color: #aaa;
+    
+  }
+  
+  input[type="text"]:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  /* Adding some margin to separate the search bar from the coins */
+  .container {
+    margin-top: 80px;
+  }
