@@ -16,7 +16,7 @@ const fetchCoins = async (page) => {
 
 const getAllCoins = async () => {
   let allCoins = [];
-  const totalPages = 2; // To get at least 500 coins
+  const totalPages = 2; 
 
   for (let page = 1; page <= totalPages; page++) {
     const coins = await fetchCoins(page);
