@@ -6,20 +6,20 @@
     justify-content: center;
     align-items: center;
     overflow-y: scroll;
-    padding-top: 65px; /* Added padding to prevent overlap */
+    padding-top: 65px; 
 }
 
-/* Hide scrollbar for WebKit browsers */
+
 .container::-webkit-scrollbar {
     display: none;
 }
 
-/* Hide scrollbar for Firefox */
+
 .container {
     scrollbar-width: none;
 }
 
-/* Hide scrollbar for older versions of Firefox and IE */
+
 .container {
     -ms-overflow-style: none;
 }

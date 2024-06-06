@@ -32,7 +32,3 @@ form {
     box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
   }
   
-  /* Adding some margin to separate the search bar from the coins */
-  .container {
-    margin-top: 80px;
-  }
