@@ -8,7 +8,6 @@ function Coins() {
   const [filteredCoins, setFilteredCoins] = useState([]);
 
   useEffect(() => {
-   
     const fetchData = async () => {
       try {
         const response = await fetch('http://localhost:5000/coins');
